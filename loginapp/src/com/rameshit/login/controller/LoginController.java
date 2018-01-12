@@ -14,8 +14,9 @@ import com.rameshit.login.service.LoginService;
 public class LoginController {
 	
 	public LoginController() {
+		System.out.println("----1----");
 		System.out.println("In LoginController Constructor...!");
-		System.out.println("--------");
+		System.out.println("----2----");
 	}
 
 	@Autowired
